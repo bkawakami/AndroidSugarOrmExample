@@ -62,7 +62,7 @@ public class MainActivity extends ActionBarActivity {
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
 
-            UserEntity userInsertRohde = new UserEntity("Felipe Rohde", "fr.rohde@gmail.com");
+            UserEntity userInsertRohde = new UserEntity("Bruno Kawakami", "bkawakami@outlook.com");
             userInsertRohde.save();
 
             UserEntity userInsertBruno = new UserEntity("Bruno Akio", "bru.kawakami@gmail.com");
